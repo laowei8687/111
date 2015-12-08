@@ -6,6 +6,7 @@
 //  Copyright © 2015年 王斌. All rights reserved.
 //
 // laowei
+//jjjjjjjjjjj
 #import "ViewController.h"
 #import "V1iewController.h"
 
@@ -18,7 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"jjjjjjj");
+    NSLog(@"jjjj");
+    
     // Do any additional setup after loading the view, typically from a nib.
     self.tv1 = [[UITableView alloc]initWithFrame:CGRectMake(0, 20, self.view.bounds.size.width, 240) style:UITableViewStylePlain];
     self.tv1.tag = 1;
